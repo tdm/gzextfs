@@ -1,0 +1,18 @@
+This is the gzextfs package.  It is a FUSE filesystem implementation
+which is able to mount a gzip compressed ext2/3/4 image.
+
+Installation instructions:
+
+	make
+	make install
+
+Usage instructions:
+
+	gzextfs --filename=image.gz /mnt
+
+The official source code repository for gzextfs can be found at:
+
+	https://github.com/tdm/gzextfs
+
+Copyright (C) Tom Marshall <tdm.code@gmail.com>
+Licensed under the GNU Public License version 2.
